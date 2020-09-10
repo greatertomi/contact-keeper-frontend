@@ -1,7 +1,7 @@
 import React, {useReducer} from "react";
 import AuthContext from "./authContext";
 import authReducer from "./authContext"
-import {
+/*import {
   REGISTER_SUCCESS,
   REGISTER_FAIL,
   USER_LOADED,
@@ -10,7 +10,7 @@ import {
   LOGIN_FAIL,
   LOGOUT,
   CLEAR_ERRORS
-} from '../types'
+} from '../types'*/
 
 const AuthState = () => {
   const initialState = {
